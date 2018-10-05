@@ -1,6 +1,7 @@
 .
 ├── Algorithms
 │   ├── CV
+│   │   ├── DeformConv.pdf
 │   │   └── StyleTransfer.pdf
 │   ├── NLP
 │   │   └── DMN-nlp.pdf
@@ -49,9 +50,9 @@
 │   │   ├── 42_RefineDet.pdf
 │   │   └── 43_RFBNet.pdf
 │   └── Other
+│       ├── DatabaseIndex.pdf
 │       ├── SMO-optim.pdf
-│       ├── glorot10a.pdf
-│       └── paper_22.pdf
+│       └── glorot10a.pdf
 ├── Models
 │   ├── CroodConv.pdf
 │   ├── DesNet.pdf
@@ -62,4 +63,4 @@
 ├── readme.md
 └── tree.txt
 
-6 directories, 56 files
+6 directories, 57 files
