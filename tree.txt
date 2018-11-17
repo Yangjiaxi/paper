@@ -64,11 +64,12 @@
 │   │   ├── Inception_v2_v3.pdf
 │   │   └── Inception_v4_resnet.pdf
 │   ├── ResNet.pdf
+│   ├── STN.pdf
 │   ├── Stack-U-net.pdf
 │   ├── U-net.pdf
-│   └── resource
+│   └── assert
 │       └── resnet1.png
 ├── readme.md
 └── tree.txt
 
-8 directories, 63 files
+8 directories, 64 files
