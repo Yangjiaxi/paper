@@ -2,6 +2,13 @@
 ├── Algorithms
 │   ├── CV
 │   │   └── StyleTransfer.pdf
+│   ├── FaceRecognition
+│   │   ├── DeepFace.pdf
+│   │   ├── DeepID.pdf
+│   │   ├── DeepID2+.pdf
+│   │   ├── DeepID2.pdf
+│   │   ├── DeepID3.pdf
+│   │   └── FaceNet.pdf
 │   ├── NLP
 │   │   ├── DMN-nlp.pdf
 │   │   └── ELMo.pdf
@@ -72,4 +79,4 @@
 ├── readme.md
 └── tree.txt
 
-8 directories, 64 files
+9 directories, 70 files
