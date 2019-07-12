@@ -2,6 +2,7 @@
 ├── Algorithms
 │   ├── CV
 │   │   ├── FocalLoss.pdf
+│   │   ├── SLIC_Superpixels.pdf
 │   │   └── StyleTransfer.pdf
 │   ├── FaceRecognition
 │   │   ├── DeepFace.pdf
@@ -57,12 +58,170 @@
 │   │   ├── 41_STDN.pdf
 │   │   ├── 42_RefineDet.pdf
 │   │   └── 43_RFBNet.pdf
-│   └── Other
-│       ├── DatabaseIndex.pdf
-│       ├── Myers-DiffAlgorithm.pdf
-│       ├── NEAT.pdf
-│       ├── SMO-optim.pdf
-│       └── glorot10a.pdf
+│   ├── Other
+│   │   ├── AdaBound.pdf
+│   │   ├── DatabaseIndex.pdf
+│   │   ├── Myers-DiffAlgorithm.pdf
+│   │   ├── NEAT.pdf
+│   │   ├── SMO-optim.pdf
+│   │   └── glorot10a.pdf
+│   └── RecSys
+│       ├── 01-Surveys
+│       │   ├── 2002-Hybrid\ Recommender\ Systems\ Surveyand\ Experiments.pdf
+│       │   ├── 2005-Towards\ the\ Next\ Generation\ of\ Recommender\ Systems.pdf
+│       │   ├── 2009-A\ Survey\ of\ Collaborative\ Filtering\ Techniques.pdf
+│       │   ├── 2011-Comparison\ of\ collaborative\ filtering\ algorithms.pdf
+│       │   ├── 2011-Tag\ aware\ recommender\ systems\ a\ state-of-the-art\ survey.pdf
+│       │   ├── 2013-Social\ Recommendation\ A\ Review.pdf
+│       │   ├── 2014-A\ Survey\ of\ Collaborative\ Filtering\ based\ Social\ Recommender\ Systems.pdf
+│       │   ├── 2014-Collaborative\ Filtering\ beyond\ the\ User-Item\ Matrix.pdf
+│       │   ├── 2015-A\ Survey\ of\ Point-of-Interest\ Recommendation\ in\ Location-Based\ Social\ Networks.pdf
+│       │   ├── 2015-Recommender\ Systems\ based\ on\ User\ Reviews.pdf
+│       │   ├── 2015-Social\ Networking\ Meets\ Recommender\ Systems\ Survey.pdf
+│       │   ├── 2017-Use\ of\ Deep\ Learning\ in\ Modern\ Recommendation\ System\ A\ Summary\ of\ Recent\ Works.pdf
+│       │   ├── 2018-A\ review\ on\ deep\ learning\ for\ recommender\ systems-challenges\ and\ remedies.pdf
+│       │   ├── 2018-Deep\ Learning\ based\ Recommender\ System\ A\ Survey\ and\ New\ Perspectives.pdf
+│       │   ├── 2018-Explainable\ Recommendation\ A\ Survey\ and\ New\ Perspectives.pdf
+│       │   └── 2019-A\ Survey\ on\ Session-based\ Recommender\ Systems.pdf
+│       ├── 02-Classical\ RS
+│       │   ├── 1992-Using\ Collaborative\ Filtering\ to\ Weave\ An\ Information\ Tapestry.pdf
+│       │   ├── 1994-GroupLens\ An\ Open\ Architecture\ for\ Collaborative\ Filtering\ of\ Netnews.pdf
+│       │   ├── 2001-Item\ based\ Collaborative\ Filtering\ Recommendation\ Algorithms.pdf
+│       │   ├── 2003-Amazon.\ com\ recommendations\ Item-to-item\ collaborative\ filtering.pdf
+│       │   ├── 2005-Slope\ One\ Predictors\ for\ Online\ Rating-Based\ Collaborative\ Filtering.pdf
+│       │   ├── 2007-Bipartite\ Network\ Projection\ and\ Personal\ Recommendation.pdf
+│       │   ├── 2008-Collaborative\ Filtering\ for\ Implicit\ Feedback\ Datasets.pdf
+│       │   ├── 2008-Factorization\ Meets\ the\ Neighborhood\ a\ Multifaceted\ Collaborative\ Filtering\ Model.pdf
+│       │   ├── 2008-Improving\ Maximum\ Margin\ Matrix\ Factorization.pdf
+│       │   ├── 2008-One\ Class\ Collaborative\ Filtering.pdf
+│       │   ├── 2008-Probabilistic\ Matrix\ Factorization.pdf
+│       │   ├── 2009-BPR\ Bayesian\ Personalized\ Ranking\ from\ Implicit\ Feedback.pdf
+│       │   ├── 2009-Matrix\ Factorization\ Techniques\ for\ Recommender\ Systems.pdf
+│       │   ├── 2009-Regression-based\ latent\ factor\ models.pdf
+│       │   ├── 2009-The\ BellKor\ Solution\ to\ the\ Netflix\ Grand\ Prize.pdf
+│       │   ├── 2010-Collaborative\ Filtering\ via\ Euclidean\ Embeddings.pdf
+│       │   ├── 2010-Collaborative\ filtering\ with\ temporal\ dynamics.pdf
+│       │   ├── 2010-Factor\ in\ the\ neighbors\ Scalable\ and\ accurate\ collaborative\ filtering.pdf
+│       │   ├── 2011-Feature-based\ matrix\ factorization.pdf
+│       │   ├── 2012-Contextual\ Collaborative\ Filtering\ via\ Hierarchical\ Matrix\ Factorization.pdf
+│       │   ├── 2012-Learning\ recommender\ systems\ with\ adaptive\ regularization.pdf
+│       │   ├── 2013-FISM-Factored\ Item\ Similarity\ Models\ for\ Top-N\ Recommender\ Systems.pdf
+│       │   ├── 2013-Local\ Low\ Rank\ Matrix\ Approximation.pdf
+│       │   ├── 2014-Probabilistic\ matrix\ factorization\ with\ non-random\ missing\ data.pdf
+│       │   ├── 2014-Your\ neighbors\ affect\ your\ ratings\ on\ geographical\ neighborhood\ influence\ to\ rating\ prediction.pdf
+│       │   ├── 2015-E\ commerce\ in\ Your\ Inbox-Product\ Recommendations\ at\ Scale.pdf
+│       │   ├── 2015-Semantic\ Path\ based\ Personalized\ Recommendation\ on\ Weighted\ Heterogeneous\ Information\ Networks.pdf
+│       │   ├── 2016-Fast\ Matrix\ Factorization\ for\ Online\ Recommendation\ with\ Implicit\ Feedback.pdf
+│       │   ├── 2016-Item2vec\ Neural\ Item\ Embedding\ for\ Collaborative\ Filtering.pdf
+│       │   ├── 2016-Modeling\ User\ Exposure\ in\ Recommendation.pdf
+│       │   ├── 2017-Collaborative\ metric\ learning.pdf
+│       │   ├── 2018-BiNE\ Bipartite\ Network\ Embedding.pdf
+│       │   ├── 2018-Metric\ Factorization-Recommendation\ beyond\ Matrix\ Factorization.pdf
+│       │   ├── 2019-Collaborative\ Similarity\ Embedding\ for\ Recommender\ Systems.pdf
+│       │   └── 2019-Heterogeneous\ Information\ Network\ Embedding\ for\ Recommendation-TKDE.pdf
+│       ├── 03-Social\ RS
+│       │   ├── 2008-SoRec\ Social\ Recommendation\ using\ Probabilistic\ Matrix\ Factorization.pdf
+│       │   ├── 2009-Learning\ to\ Recommend\ with\ Social\ Trust\ Ensemble.pdf
+│       │   ├── 2009-Learning\ to\ Recommend\ with\ Trust\ and\ Distrust\ Relationships.pdf
+│       │   ├── 2009-TrustWalker\ A\ Random\ Walk\ Model\ for\ Combining\ Trust-based\ and\ Item-based\ Recommendation.pdf
+│       │   ├── 2010-\ SocialMF\ A\ Matrix\ Factorization\ Technique\ with\ Trust\ Propagation\ for\ Recommendation\ in\ Social\ Networks.pdf
+│       │   ├── 2011-Learning\ to\ recommend\ with\ explicit\ and\ implicit\ social\ relations.pdf
+│       │   ├── 2011-Recommender\ Systems\ with\ Social\ Regularization.pdf
+│       │   ├── 2013-An\ experimental\ study\ on\ implicit\ social\ recommendation.pdf
+│       │   ├── 2013-TrustMF\ Social\ Collaborative\ Filtering\ by\ Trust.pdf
+│       │   ├── 2014-Context\ aware\ collaborative\ topic\ regression\ with\ social\ matrix\ factorization\ for\ recommender\ systems.pdf
+│       │   ├── 2014-Leveraging\ Social\ Connections\ to\ Improve\ Personalized\ Ranking\ for\ Collaborative\ Filtering.pdf
+│       │   ├── 2015-TrustSVD\ Collaborative\ Filtering\ with\ Both\ the\ Explicit\ and\ Implicit\ Influence\ of\ User\ Trust\ and\ of\ Item\ Ratings.pdf
+│       │   ├── 2017-Collaborative\ Filtering\ with\ Social\ Local\ Models.pdf
+│       │   ├── 2017-Collaborative\ User\ Network\ Embedding\ for\ Social\ Recommender\ Systems.pdf
+│       │   ├── 2017-Learning\ to\ Rank\ with\ Trust\ and\ Distrust\ in\ Recommender\ Systems.pdf
+│       │   ├── 2017-Social\ Recommendation\ using\ Euclidean\ Embedding.pdf
+│       │   ├── 2017-Social\ Recommendation\ with\ Strong\ and\ Weak\ Ties.pdf
+│       │   ├── 2017-TrustMF\ Social\ Collaborative\ Filtering\ by\ Trust.pdf.pdf
+│       │   ├── 2017-UniWalk\ Explainable\ and\ Accurate\ Recommendation\ for\ Rating\ and\ Network\ Data.pdf
+│       │   ├── 2018-Adaptive\ Implicit\ Friends\ Identification\ over\ Heterogeneous\ Network\ for\ Social\ Recommendation.pdf
+│       │   ├── 2018-Collaborative\ Filtering\ with\ Social\ Exposure-A\ Modular\ Approach\ to\ Social\ Recommendation.pdf
+│       │   ├── 2018-Network\ Embedding\ Based\ Recommendation\ Method\ in\ Social\ Networks.pdf
+│       │   ├── 2018-Recommender\ Systems\ with\ Characterized\ Social\ Regularization.pdf
+│       │   ├── 2018-Social\ Collaborative\ Filtering\ Ensemble.pdf
+│       │   ├── 2019-Graph\ Neural\ Networks\ for\ Social\ Recommendation-WWW.pdf
+│       │   └── 2019-Session-based\ Social\ Recommendation\ via\ Dynamic\ Graph\ Attention\ Networks-WSDM.pdf
+│       ├── 04-Deep\ Learning\ based\ RS
+│       │   ├── 2007-Restricted\ Boltzmann\ machines\ for\ collaborative\ filtering.pdf
+│       │   ├── 2015-AutoRec\ Autoencoders\ Meet\ Collaborative\ Filtering.pdf
+│       │   ├── 2015-Collaborative\ Deep\ Learning\ for\ Recommender\ Systems.pdf
+│       │   ├── 2016-A\ Neural\ Autoregressive\ Approach\ to\ Collaborative\ Filtering.pdf
+│       │   ├── 2016-Collaborative\ Denoising\ Auto-Encoders\ for\ Top-N\ Recommender\ Systems.pdf
+│       │   ├── 2016-Convolutional\ Matrix\ Factorization\ for\ Document\ Context-Aware\ Recommendation.pdf
+│       │   ├── 2016-Deep\ Neural\ Networks\ for\ YouTube\ Recommendations.pdf
+│       │   ├── 2016-Improved\ Recurrent\ Neural\ Networks\ for\ Session-based\ Recommendations.pdf
+│       │   ├── 2016-Session\ based\ Recommendations\ with\ Recurrent\ Neural\ Networks.pdf
+│       │   ├── 2016-Wide\ &\ Deep\ Learning\ for\ Recommender\ Systems.pdf
+│       │   ├── 2017-CCCFNet-A\ Content-Boosted\ Collaborative\ Filtering\ Neural\ Network\ for\ Cross\ Domain\ Recommender\ Systems.pdf
+│       │   ├── 2017-Collaborative\ Autoencoder\ for\ Recommender\ Systems.pdf
+│       │   ├── 2017-Deep\ Matrix\ Factorization\ Models\ for\ Recommender\ Systems.pdf
+│       │   ├── 2017-Joint\ Deep\ Modeling\ of\ Users\ and\ Items\ Using\ Reviews\ for\ Recommendation.pdf
+│       │   ├── 2017-Leveraging\ Long\ and\ Short-term\ Information\ in\ Content-aware\ Movie\ Recommendation.pdf
+│       │   ├── 2017-Neural\ Collaborative\ Filtering.pdf
+│       │   ├── 2018-A\ Generic\ Collaborative\ Filtering\ Framework\ based\ on\ Generative\ Adversarial\ Networks-CIKM.pdf
+│       │   ├── 2018-Billion-scale\ Commodity\ Embedding\ for\ E-commerce\ Recommendation\ in\ Alibaba.pdf
+│       │   ├── 2018-Buy\ It\ Again-\ Modeling\ Repeat\ Purchase\ Recommendations.pdf
+│       │   ├── 2018-Collaborative\ Memory\ Network\ for\ Recommendation\ Systems.pdf
+│       │   ├── 2018-Graph\ Convolutional\ Neural\ Networks\ for\ Web-Scale\ Recommender\ Systems.pdf
+│       │   ├── 2018-Latent\ Cross-Making\ Use\ of\ Context\ in\ Recurrent\ Recommender\ Systems.pdf
+│       │   ├── 2018-Learning\ from\ History\ and\ Present\ Next-item\ Recommendation\ via\ Discriminatively\ Exploiting\ User\ Behaviors.pdf
+│       │   ├── 2018-Leveraging\ Meta-path\ based\ Context\ for\ Top-\ N\ Recommendation\ with\ A\ Neural\ Co-Attention\ Model.pdf
+│       │   ├── 2018-Local\ Latent\ Space\ Models\ for\ Top-N\ Recommendation.pdf
+│       │   ├── 2018-Micro\ behaviors-A\ new\ perspective\ in\ e-commerce\ recommender\ systems.pdf
+│       │   ├── 2018-Next\ Item\ Recommendation\ with\ Self-Attention.pdf
+│       │   ├── 2018-Personalized\ top-n\ sequential\ recommendation\ via\ convolutional\ sequence\ embedding.pdf
+│       │   ├── 2018-Real-time\ Personalization\ using\ Embeddings\ for\ Search\ Ranking\ at\ Airbnb.pdf
+│       │   ├── 2018-Regularizing\ Matrix\ Factorization\ with\ User\ and\ Item\ Embeddings\ for\ Recommendation.pdf
+│       │   ├── 2018-Sequential\ Recommendation\ with\ User\ Memory\ Networks.pdf
+│       │   ├── 2018-Variational\ Autoencoders\ for\ Collaborative\ Filtering.pdf
+│       │   ├── 2018-xDeepFM-\ Combining\ Explicit\ and\ Implicit\ Feature\ Interactions\ for\ Recommender\ Systems.pdf
+│       │   └── 2019-Session-based\ Recommendation\ with\ Graph\ Neural\ Networks.pdf
+│       ├── 05-Cold\ Start\ in\ RS
+│       │   ├── 2002-Methods\ and\ metrics\ for\ cold-start\ recommendations.pdf
+│       │   ├── 2010-Learning\ Attribute-to-Feature\ Mappings\ for\ Cold-Start\ Recommendations.pdf
+│       │   ├── 2014-Addressing\ cold\ start\ in\ recommender\ systems\ a\ semi-supervised\ co-training\ algorithm.pdf
+│       │   ├── 2014-Social\ Collaborative\ Filtering\ for\ Cold-start\ Recommendations.pdf
+│       │   ├── 2017-Cross\ Domain\ Recommendation\ An\ Embedding\ and\ Mapping\ Approach.pdf
+│       │   ├── 2017-Expediting\ Exploration\ by\ Attribute-to-Feature\ Mapping\ for\ Cold-Start\ Recommendations.pdf
+│       │   ├── 2017-Low-rank\ Linear\ Cold-Start\ Recommendation\ from\ Social\ Data.pdf
+│       │   └── 2018-Handling\ Cold-Start\ Collaborative\ Filtering\ with\ Reinforcement\ Learning.pdf
+│       ├── 06-POI\ RS
+│       │   ├── 2011-Exploiting\ geographical\ influence\ for\ collaborative\ point-of-interest\ recommendation.pdf
+│       │   ├── 2012-Fused\ matrix\ factorization\ with\ geographical\ and\ social\ influence\ in\ location-based\ social\ networks.pdf
+│       │   ├── 2013-iGSLR\ personalized\ geo-social\ location\ recommen\ dation\ a\ kernel\ density\ estimation\ approach.pdf
+│       │   ├── 2014-Lore\ exploiting\ sequential\ influence\ for\ location\ recommendations.pdf
+│       │   ├── 2015-Geosoca\ Exploiting\ geographical\ social\ and\ categorical\ correlations\ for\ point-of-interest\ recommendations.\ .pdf
+│       │   ├── 2016-Point-of-Interest\ Recommendations\ Learning\ Potential\ Check-ins\ from\ Friends.pdf
+│       │   ├── 2017-A\ Personalised\ Ranking\ Framework\ with\ Multiple\ Sampling\ Criteria\ for\ Venue\ Recommendation.pdf
+│       │   ├── 2017-Category-aware\ Next\ Point-of-Interest\ Recommendation\ via\ Listwise\ Bayesian\ Personalized\ Ranking.pdf
+│       │   └── 2017-Learning\ User's\ Intrinsic\ and\ Extrinsic\ Interests\ for\ Point-of-Interest\ Recommendation\ A\ Unified\ Approach.pdf
+│       ├── 07-Hashing\ for\ RS
+│       │   ├── 2010-Collaborative\ filtering\ on\ a\ budget.pdf
+│       │   ├── 2012-Learning\ binary\ codes\ for\ collaborative\ filtering.pdf
+│       │   ├── 2014-Preference\ preserving\ hashing\ for\ efficient\ recommendation.pdf
+│       │   ├── 2016-Discrete\ collaborative\ filtering.pdf
+│       │   └── 2017-Discrete\ Content-aware\ Matrix\ Factorization.pdf
+│       ├── 08-EE\ in\ RS
+│       │   ├── 2002-Using\ Confidence\ Bounds\ for\ Exploitation-Exploration\ Trade-offs.pdf
+│       │   ├── 2010-A\ Contextual-Bandit\ Approach\ to\ Personalized\ News\ Article\ Recommendation.pdf
+│       │   ├── 2010-Exploitation\ and\ Exploration\ in\ a\ Performance\ based\ Contextual\ Advertising\ System.pdf
+│       │   ├── 2011-An\ Empirical\ Evaluation\ of\ Thompson\ Sampling.pdf
+│       │   ├── 2016-Collaborative\ Filtering\ Bandits.pdf
+│       │   ├── 2016-Random\ Forest\ for\ the\ Contextual\ Bandit\ Problem.pdf
+│       │   └── 2017-Factorization\ Bandits\ for\ Interactive\ Recommendation.pdf
+│       ├── 09-Explainability\ on\ RS
+│       │   ├── 2017-UniWalk\ Explainable\ and\ Accurate\ Recommendation\ for\ Rating\ and\ Network\ Data.pdf
+│       │   ├── 2018-Improving\ Sequential\ Recommendation\ with\ Knowledge-Enhanced\ Memory\ Networks.pdf
+│       │   ├── 2018-TEM\ Tree-enhanced\ Embedding\ Model\ for\ Explainable\ Recommendation.pdf
+│       │   ├── 2018-Why\ I\ like\ it\ multi-task\ learning\ for\ recommendation\ and\ explanation.pdf
+│       │   ├── 2019-Explainable\ Reasoning\ over\ Knowledge\ Graphs\ for\ Recommendation.pdf
+│       │   └── 2019-Unifying\ Knowledge\ Graph\ Learning\ and\ Recommendation-Towards\ a\ Better\ Understanding\ of\ User\ Preferences.pdf
+│       └── README.pdf
 ├── Models
 │   ├── CroodConv.pdf
 │   ├── DeformConv.pdf
@@ -81,4 +240,4 @@
 ├── readme.md
 └── tree.txt
 
-9 directories, 72 files
+19 directories, 221 files
